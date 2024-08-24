@@ -14,7 +14,7 @@ CV 팀원 : 20기 김정찬 / 20기 김영언
 딥러닝 기반의 Spatial transcriptomics 모델인 HisT2ST
 - Hist2ST 모델의 pretrained check point 활용
 ### Model Architecture
-<img src>=""
+<img src="https://github.com/aldadobi/Spatial-transcriptomics-with-breast-tissue/blob/main/image.png">
 
 ## Task Definition
 
