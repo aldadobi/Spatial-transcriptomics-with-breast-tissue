@@ -26,6 +26,7 @@ Graph neural network : 국소적으로 각 이미지 스팟(패치 X)이 이웃 
 
 Zero-Inflated Negative Binomial(ZINB) layer : GNN에서 추출한 feature를 input으로 받는 layer, 데이터에 0 값이 과도하게 많을 때 먼저 샘플이 0인지 아닌지를 결정하호 Negative Binomial 분포를 적용시킴
 
+
 ## Task Definition
 ### Background
 #### 1. Spatial Transcriptomics  
