@@ -47,21 +47,21 @@ Using Scanpy, Remove cells that might have insufficient RNA molecule or doublets
 Hist2ST 모델의 pretrained check point 활용하여 her2st 데이터 중, gene expression과 img을 사용하였다.   
 **Result 1**
 ![image](https://github.com/user-attachments/assets/729be57f-0aee-430b-a349-48f796af4cc1)
-Cell Prediction Accuracy: 0.898
+Cell Prediction Accuracy: 0.898  
 Cluster Prediction Accuracy: 0.551 (ARI: 0.12)
 
 **Result 2**
 ![image](https://github.com/user-attachments/assets/c8a5bbf5-5ebc-4144-97ba-3dd30fd60677)
-Cell Prediction Accuracy: 0.681
+Cell Prediction Accuracy: 0.681  
 Cluster Prediction Accuracy: 0.702 (ARI: 0.42)
 
 **Result 3**
 ![image](https://github.com/user-attachments/assets/c99255da-9258-41ad-8063-d793505f2500)
-Cell Prediction Accuracy: 0.983
+Cell Prediction Accuracy: 0.983  
 Cluster Prediction Accuracy: 0.594 (ARI: 0.03)
 
 ## Future Model
-Gene Symbol이 아닌 Cell Type 예측 모델 ⇒ 예측 class 감소로 정확도 증가 기대
+Gene Symbol이 아닌 Cell Type 예측 모델 ⇒ 예측 class 감소로 정확도 증가 기대  
 **Model 1)** Gene Score 기반의 Cell Type 예측  
 **Model 2)** Cluster 예측 (Leiden Clustering)
 
