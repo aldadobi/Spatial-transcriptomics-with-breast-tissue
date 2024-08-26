@@ -7,11 +7,7 @@ CV 팀원: 20기 김정찬 / 20기 김영언
 ## Paper
 [Hist2ST Paper] (https://pubmed.ncbi.nlm.nih.gov/35849101/) 
 
-Convmixer module : 패치 단위로 연산을 하며 그 연산을 standard convolution을 통해서 진행 , 이미지 patch 간에 internal relation of 2D vision feature를 찾음
-<br>
-Transformer module : self-attention을 통해 전역적인 공간적 특징과 연결고리를 찾아내는 모듈
-<br>
-Graph neural network : 국소적으로 각 이미지 스팟(패치 X)이 이웃 스팟과 공간적으로 어떤 관계를 갖는 지 찾아내는 network
+
 
 <br>
 <br>
@@ -21,6 +17,12 @@ Graph neural network : 국소적으로 각 이미지 스팟(패치 X)이 이웃 
 - Hist2ST 모델의 pretrained check point 활용
 ### Model Architecture
 <img src="https://github.com/aldadobi/Spatial-transcriptomics-with-breast-tissue/blob/main/image.png">
+
+Convmixer module : 패치 단위로 연산을 하며 그 연산을 standard convolution을 통해서 진행 , 이미지 patch 간에 internal relation of 2D vision feature를 찾음
+
+Transformer module : self-attention을 통해 전역적인 공간적 특징과 연결고리를 찾아내는 모듈
+
+Graph neural network : 국소적으로 각 이미지 스팟(패치 X)이 이웃 스팟과 공간적으로 어떤 관계를 갖는 지 찾아내는 network
 
 ## Task Definition
 ### Background
